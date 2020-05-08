@@ -1,0 +1,100 @@
+ body{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(150, 252, 221));
+ }
+ h1 {
+     text-align: center;
+     border-radius: 50%;
+    background-color: rgba(255, 217, 0, 0.932);
+    margin-bottom: 10vh;
+    font-family: Arial, sans-serif;
+ }
+#container {
+
+    margin: auto auto;
+    justify-content: center;
+    background-color: rgb(34, 211, 202);
+    
+    
+    
+    position: relative;
+    
+    /*margin-left:  70vh;
+    margin-right: 70vh;*/
+    width: 40vh;
+    height: 60vh;
+    display: grid;
+    grid-template-columns:  10vh 10vh 10vh 10vh ;
+  grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh   ;
+}
+
+ .buttons{
+    font-family:  sans-serif;
+     margin: 2px;
+     background-color: rgba(255, 217, 0, 0.932);
+     width: 10vh;
+     height: 10vh;
+     place-self: center;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+  align-items: center;
+  
+    border: 1px solid rgb(247, 211, 164);
+  
+     vertical-align: middle;
+     font-size: 150%; 
+     
+     
+
+ }
+
+ #resultbox{
+    
+     color:white;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-radius: 2%;
+    border-style: solid;
+    border: 10px;
+    border-color: rgb(95, 93, 93) ;
+        
+     font-size: 150%; 
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     background-color: rgb(95, 93, 93);
+ }
+ #input{
+     width: 0px;
+     opacity: 0;    
+ }
+
+ #C{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    width: 20vh;
+
+
+ }
+ #equal{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    height:  20vh;
+    
+
+ }
+ .buttons:hover {
+    color: rgb(51, 51, 51);
+  }
+  .buttons:active{
+    transform: translateY(2px);
+  }
+  .symbol{
+      background-color: rgb(255, 167, 67);
+  }
